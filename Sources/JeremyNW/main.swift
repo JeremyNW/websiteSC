@@ -52,7 +52,7 @@ struct About: MacrinaPage {
     var body: Component {
         Div {
             H2("Bio")
-            Paragraph("Hi, I'm Jeremy Warren! I'm an iOS Developer for Macrina LLC. For now coding is a hobby, but soon I hope to turn coding into a career! I spend most of my time writing in SwiftUI but I wrtie in Objective-C, and Swift as well. I also have 2 published apps on the App Store - Prepodium, and WorkNout. ")
+            Paragraph("Hi, I'm Jeremy Warren! I'm an iOS Developer for Macrina LLC. For now coding is a hobby, but soon I hope to turn coding into a career! I spend most of my time writing in Swift/SwiftUI, but I write in Objective-C as well. I also have 2 published apps on the App Store - Prepodium, and WorkNout. ")
             Divider()
             H2("Projects")
             Paragraph {
@@ -93,7 +93,7 @@ struct Contact: MacrinaPage {
             }
             LineBreak()
             Link(url: "https://www.Github.com/Jeremynw") {
-                MacrinaImage("/Github.png", style: .icon)
+                MacrinaImage("/GitHub.png", style: .icon)
                     .style("vertical-align:middle;")
                 Text("Github")
             }
